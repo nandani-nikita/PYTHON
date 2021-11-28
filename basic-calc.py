@@ -1,0 +1,6 @@
+name = input("Hello. What is your name?\n")
+print("Hey, please enter three numbers:")
+num1, num2, num3 = input(), input(), input()
+result = int(num1) + int(num2)
+result *= int(num3)
+print("Cool! Nice attempt {}. You choosed {}, {}, and {}.\nThe calculated result is {}".format(name, num1, num2, num3, result))
